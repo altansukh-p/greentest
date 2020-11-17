@@ -9,10 +9,16 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <script>
+        document.getElementById('myDiv').innerHTML = 'This div is my div';
+        var i = 30;
+    </script>
 </head>
 <body>
     <div> 
         @ViewBag.Message
     </div>
+
+    <div id = 'myDiv'>This div is your div.</div>
 </body>
 </html>

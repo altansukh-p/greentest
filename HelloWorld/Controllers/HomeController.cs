@@ -22,6 +22,7 @@ namespace HelloWorld.Controllers
             for (int i = 0; i < 100; i++)
             {
                 Image img = Image.FromFile("c:/test.png");
+                
                 DataTable table = new DataTable();
                 table.Columns.Add("COL1");
                 table.Columns.Add("COL2");
